@@ -1,0 +1,43 @@
+<form *ngIf="showAddHero" class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label for="lastName"></label>
+    <input
+      type="text"
+      name="lastName"
+      [(ngModel)]="lastName"
+      id="lastName"
+      placeholder="Insert last name"
+    />
+  </div>
+  <div class="form-control">
+    <label for="firstName"></label>
+    <input
+      type="text"
+      name="firstName"
+      [(ngModel)]="firstName"
+      id="firstName"
+      placeholder="Insert first name"
+    />
+  </div>
+  <div class="form-control">
+    <label for="heroName"></label>
+    <input
+      type="text"
+      name="heroName"
+      [(ngModel)]="heroName"
+      id="heroName"
+      placeholder="Insert hero name"
+    />
+  </div>
+  <div class="form-control">
+    <label for="superpowerName"></label>
+    <input
+      type="text"
+      name="superpowerName"
+      [(ngModel)]="superpowerName"
+      id="superpowerName"
+      placeholder="Insert superpower name"
+    />
+  </div>
+  <input type="submit" value="SAVE NEW HERO" class="saveHero-btn" />
+</form>

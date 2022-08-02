@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+p {
+  color: azure;
+}
+
+a {
+  color: #00ffc8;
+}

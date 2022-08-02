@@ -1,0 +1,30 @@
+.hero-line {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(144, 198, 212, 0.486);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hero-line h4 {
+  margin-left: 10px;
+}
+
+.hero-line span {
+  color: rgb(20, 20, 20);
+  font-family: "Roboto";
+  font-size: larger;
+}
+.edit-icon {
+  font-size: medium;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}
+.delete-icon {
+  font-size: medium;
+  cursor: help;
+  float: right;
+  margin-right: 5px;
+}

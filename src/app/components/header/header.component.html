@@ -1,0 +1,9 @@
+<header>
+  <h1 class="title-name">{{ title }}</h1>
+  <app-button
+    *ngIf="showButton"
+    color="{{ showAddHero ? '#ee4c4c' : '#bada55' }}"
+    text="{{ showAddHero ? 'Close form' : 'Add hero' }}"
+    (btnClick)="toggleAddHero()"
+  ></app-button>
+</header>

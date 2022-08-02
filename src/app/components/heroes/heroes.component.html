@@ -1,0 +1,6 @@
+<app-new-hero (onAddHero)="addHero($event)"></app-new-hero>
+<app-hero-item
+  *ngFor="let hero of heroes"
+  [hero]="hero"
+  (onDeleteHero)="deleteHero($event, hero)"
+></app-hero-item>

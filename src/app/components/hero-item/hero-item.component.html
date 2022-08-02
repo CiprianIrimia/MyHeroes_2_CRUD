@@ -1,0 +1,31 @@
+<div class="hero-line">
+  <h4>
+    Last name:
+    <span>{{ hero.lastName }}</span
+    ><fa-icon
+      class="delete-icon"
+      title="BY PRESSING YOU WILL DELETE HERO!"
+      (click)="onDelete(hero.id)"
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTrash"
+    ></fa-icon
+    ><fa-icon
+      class="edit-icon"
+      title="EDIT HERO!"
+      [ngStyle]="{ color: 'green' }"
+      [icon]="faPencil"
+    ></fa-icon>
+  </h4>
+  <h4>
+    First name:
+    <span>{{ hero.firstName }}</span>
+  </h4>
+  <h4>
+    Hero name:
+    <span>{{ hero.heroName }}</span>
+  </h4>
+  <h4>
+    Superpower name:
+    <span>{{ hero.superpowerName }}</span>
+  </h4>
+</div>

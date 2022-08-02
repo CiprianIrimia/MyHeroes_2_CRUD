@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background: url(./assets/images/my-hero-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(238, 238, 238);
+}
+
+.container {
+  max-width: 50%;
+  min-width: 420px;
+  min-height: 300px;
+  margin-top: 2.5rem;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
+  float: right;
+  border: 2px solid rgb(255, 164, 164);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-btn {
+  font-family: "Courgette", cursive;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.form-btn:active {
+  border-bottom-width: 2px;
+  transform: translateY(2px);
+}
+
+app-about {
+  margin-top: 1rem;
+}
